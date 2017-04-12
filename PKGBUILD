@@ -4,7 +4,7 @@ pkgrel=1
 arch=(x86_64)
 url="http://www.xsane.org"
 license=('GPL2')
-makedepends=('gtk2' 'lcms' 'sane' 'zlib' 'libjpeg' 'gimp')
+depends=('gtk2' 'lcms' 'sane' 'zlib' 'libjpeg' 'gimp')
 source=(http://www.xsane.org/download/$pkgname-$pkgver.tar.gz)
 md5sums=('9927f21e1ab6ba96315e7f0e30746deb')
 
